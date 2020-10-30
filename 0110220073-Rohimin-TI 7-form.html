@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form resgistrasi Mahasiswa</title>
+</head>
+
+<body>
+    <h2>Pendaftaran Mahasiswa Baru</h2>
+    <b>Tahun pelajaran 2020/2021</b>
+    <div>
+        <hr>
+        <h2>Form Registrasi Mahasiswa</h2>
+        <hr>
+    </div>
+    <form action="layout.html">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td><input type="text" placeholder="Masukkan Nama Lengkap" required></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>
+                    <input type="text" placeholder="Provinsi" required></td>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="Kabupaten" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="kecamatan" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="Desa" required></td>
+                </tr>
+                <tr>
+                    <td>Tempat Tanggal Lahir</td>
+                    <td>
+                        <input type="text" placeholder="Masukan Tempat Lahir" required>
+                        <input type="date" value=""></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>
+                        <select>
+                    <option value="">Agama</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Hindhu">Hindhu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" name="jk" value="laki" />laki-laki
+                        <input type="radio" name="jk" value="Perempuan" />Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td>
+                        <select>
+                        <option value="">Status</option>
+                        <option value="Kawin">Kawin</option>
+                        <option value="Belum Kawin">Belum Kawin</option>
+                        <option value="Pelajar">Pelajar</option>
+                        <option value="Mahasiswa">Mahasiswa</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td>Kewarganegaraan</td>
+                    <td>
+                        <select>
+                        <option value="">Kewarganegaraan</option>
+                        <option value="WNI">WNI</option>
+                        <option value="WNA">WNA</option>
+                    </select>
+                    </td>
+                    <tr>
+                        <td>Pekerjaan</td>
+                        <td>
+                            <input type="text" placeholder="Masukan Pekerjaan" required></td>
+                    </tr>
+                    <tr>
+                        <td>No.Handphone</td>
+                        <td>
+                            <input type="number" placeholder="Masukan Nomor" required></td>
+
+        </table>
+    </form>
+    <div>
+        <hr>
+        <h2>Informasi Sekolah</h2>
+        <hr>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>Asal Sekolah</td>
+                <td>
+                    <input type="text" placeholder="Asal Sekolah" required></td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td>
+                    <input type="text" placeholder="Jurusan" required></td>
+            </tr>
+            <tr>
+                <td>Nilai Ujian</td>
+                <td>
+                    <input type="file" required></td>
+            </tr>
+        </table>
+    </form>
+    <div>
+        <hr>
+        <h2>Data Orang tua/wali Mahasiswa</h2>
+        <hr>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>
+                    <input type="text" placeholder="Masuka Nama" required></td>
+            </tr>
+            <tr>
+                <td>Pekerjaan</td>
+                <td>
+                    <input type="text" placeholder="Pekerjaan" required></td>
+            </tr>
+            <tr>
+                <td>Penghasilan perbulan</td>
+                <td>
+                    <select>
+                    <option value="">Pilih Penghasilan</option>
+                    <option value=">5.000.000">>5.000.000</option>
+                    <option value="4.000.000">4.000.000</option>
+                    <option value="3.000.000">3.000.000.000</option>
+                    <option value="2.000.000">2.000.000</option>
+                    <option value="1.000.000">1.000.000</option>
+                    <option value="<1.000.000">>1.000.000.000</option>
+                </select>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>
+                    <input type="text" placeholder="Provinsi" required></td>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="Kabupaten"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="kecamatan"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" placeholder="Desa"></td>
+                </tr>
+                <tr>
+                    <td>Tempat Tanggal Lahir</td>
+                    <td>
+                        <input type="text" placeholder="Masukan Tempat Lahir" required>
+                        <input type="date" value=""></td>
+                </tr>
+        </table>
+    </form>
+    <div>
+        <hr>
+        <h2>STT Terpadu Nurul Fikri</h2>
+        <hr>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>program Studi</td>
+                <td>
+                    <select>
+                            <option value="">Pilih Program Studi</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="teknik Informatika">Teknik Informatika</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alasan Memilih Program itu</td>
+                <td>
+                    <textarea name="Alasan_Memilih_Program_itu" rows="3" cols="50"></textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <input type="button" value="submit">
+</body>
+
+</html>
